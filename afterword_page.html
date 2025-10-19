@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>あとがき</title>
+  <style>
+    body {
+      background-color: #f5f0e8;
+      color: #2c2416;
+      font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 2;
+    }
+
+    .page {
+      max-width: 650px;
+      margin: 0 auto;
+      background-color: #fdfcf9;
+      padding: 60px 50px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border: 1px solid #e8e0d5;
+      position: relative;
+    }
+
+    /* ページの古びた感じ */
+    .page::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        linear-gradient(90deg, transparent 0%, rgba(139, 125, 107, 0.02) 50%, transparent 100%);
+      pointer-events: none;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 1.8em;
+      margin-bottom: 2em;
+      letter-spacing: 0.3em;
+      font-weight: normal;
+      color: #2c2416;
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid #d4c5b0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .content p {
+      margin: 1.8em 0;
+      text-indent: 1em;
+      font-size: 1em;
+      color: #3a3226;
+    }
+
+    .content p:first-of-type {
+      margin-top: 0;
+    }
+
+    .content p:last-of-type {
+      margin-bottom: 2em;
+    }
+
+    .signature {
+      text-align: right;
+      margin-top: 3em;
+      font-size: 0.95em;
+      color: #5a4f42;
+    }
+
+    .signature .date {
+      margin-bottom: 0.5em;
+    }
+
+    .signature .author {
+      font-weight: bold;
+    }
+
+    /* ページ番号 */
+    .page-number {
+      text-align: center;
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #8b7d6b;
+    }
+
+    /* レスポンシブ */
+    @media (max-width: 768px) {
+      .page {
+        padding: 40px 30px;
+      }
+      
+      .title {
+        font-size: 1.5em;
+      }
+      
+      body {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1 class="title">あとがき</h1>
+    
+    <div class="content">
+      <p>本書を手に取っていただき、誠にありがとうございます。</p>
+      
+      <p>この物語は、ある出版社で働く人々の日常と葛藤を描いたものです。電子書籍という新しい波が押し寄せる中で、伝統を守ろうとする者、変化を求める者、それぞれの想いが交錯します。</p>
+      
+      <p>執筆中、私は何度も自問しました。「伝統」とは何か。「革新」とは何か。そして、本当に大切なものは何なのか、と。答えは簡単には見つかりませんでした。おそらく、絶対的な正解などないのでしょう。</p>
+      
+      <p>ただ一つ言えることは、形がどうであれ、物語を愛し、それを誰かに届けたいという想いは変わらないということです。紙であろうと、電子であろうと、その本質は同じなのかもしれません。</p>
+      
+      <p>登場人物たちはそれぞれの信念を持ち、時に対立し、時に理解し合います。彼らの姿が、読者の皆様の心に何かを残すことができれば、これ以上の喜びはありません。</p>
+      
+      <p>最後になりましたが、この作品の出版にあたり、多くの方々にお世話になりました。編集者の方々、デザイナーの方々、そして何より、この物語を最後まで読んでくださった読者の皆様に、心からの感謝を申し上げます。</p>
+      
+      <p>またどこかで、物語の中でお会いできることを願っています。</p>
+    </div>
+    
+    <div class="signature">
+      <div class="date">2025年1月15日</div>
+      <div class="author">著者名</div>
+    </div>
+    
+    <div class="page-number">― 247 ―</div>
+  </div>
+</body>
+</html>
